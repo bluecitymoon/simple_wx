@@ -86,5 +86,5 @@ picker {
     border-bottom: 1px solid #ddd;
 }
 .checkbox {
-    padding: 5px;
+  display: block;
 }
