@@ -5,16 +5,19 @@ Page({
     balance:0,
     freeze:0,
     score:0,
-    score_sign_continuous:0
+    score_sign_continuous:0,
+    userInfo: null
   },
 	onLoad() {
     
 	},	
   onShow() {
-    this.getUserInfo();
+    // this.getUserInfo();
     this.setData({
-      version: app.globalData.version
+      version: app.globalData.version,
+      userInfo: app.globalData.userInfo
     });
+
     this.getUserApiInfo();
     this.getUserAmount();
     this.checkScoreSign();

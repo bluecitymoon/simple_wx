@@ -10,6 +10,7 @@ page{
     background-color: #fff;
     margin-top: 20rpx;
 }
+
 .row-wrap{
     width: 720rpx;
     height: 120rpx;
@@ -87,4 +88,5 @@ picker {
 }
 .checkbox {
   display: block;
+  height: 100rpx;
 }
